@@ -1,0 +1,40 @@
+.login {
+    margin-left: 720px;
+    margin-right: 620px;
+    margin-top: 200px;
+    border: 3px solid darkgrey;
+    background-color: lightgrey;
+}
+
+h1{
+    color:dimgrey;
+    font-family: "Raleway Black";
+    font-size: 60px;
+    margin-top: -5px;
+}
+h2 {
+    color:darkgrey;
+    font-family: "Raleway Black";
+    margin-left: 20px;
+}
+p {
+    color:dimgrey;
+    font-family: "Raleway Black";
+}
+input[type=text] {
+    border: 2px solid dimgrey;
+    border-radius: 4px;
+    width:40%;
+    margin-left: 140px;
+}
+input[type=password] {
+    border: 2px solid dimgrey;
+    border-radius: 4px;
+    width:40%;
+    margin-left: 140px;
+}
+#confirm {
+    color: dimgrey;
+    font-size: 20px;
+    margin-left: 220px;
+}
