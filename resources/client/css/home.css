@@ -1,0 +1,79 @@
+.rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #f1f1f1;
+
+}
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+.images {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+{
+    box-sizing: border-box;
+}
+h3 {
+    
+    background-color: #B8B7B7;
+}
+
+
+
+
+
+
+body {
+    background-color: #6e6c6c;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B8B7B7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #545353;
+}
+
+.active {
+    background-color: #545353;
+}
